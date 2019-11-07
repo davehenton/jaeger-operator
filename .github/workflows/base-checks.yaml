@@ -12,5 +12,5 @@ jobs:
 
     - name: "basic checks"
       env:
-        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        CC_TEST_REPORTER_ID: 3efb8e06585ef7a6cea22c6886c5681bcca98cb0a6b14d3a538e91dd97885873
       run: ./.ci/script.sh
